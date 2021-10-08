@@ -1,0 +1,54 @@
+.container-logo {
+    width: 39vw;
+    height: 39vw;
+    border-radius: 50%;
+    background: #011533;
+    margin: 40px auto;
+    transform: rotate(-45deg);
+    transition: all 2s ease;
+}
+
+.box {
+    height: 3.25vw;
+    transition: all 2s ease;
+}
+
+.bg-green {
+    background: #75E368;
+}
+
+.bg-white {
+    background: white;
+}
+
+.row:nth-child(4) .box.bg-green {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.row:nth-child(4) .box.bg-white {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.row:nth-child(7) .box.bg-green {
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.row:last-child .box.bg-white {
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.container-logo:hover {
+    transform: rotate(315deg);
+    width: 24vw;
+    height: 24vw;
+}
+
+.container-logo:hover .box {
+    height: 2vw;
+}
