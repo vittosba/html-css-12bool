@@ -1,0 +1,20 @@
+.box {
+    padding: 10px 2px;
+    text-align: center;
+    min-height: 40px;
+}
+
+.bg-blue {
+    background: blue;
+    border: 2px solid white
+
+}
+
+.bg-green {
+    background: green;
+    border: 2px solid blue;
+}
+
+.container {
+    margin-top: 20px;
+}
