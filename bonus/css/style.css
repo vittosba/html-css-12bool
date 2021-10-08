@@ -1,9 +1,15 @@
+.container-ext {
+    margin: 40px auto;
+    width: 39vw;
+    height: 39vw;
+    transition: all 2s ease;
+}
+
 .container-logo {
     width: 39vw;
     height: 39vw;
     border-radius: 50%;
     background: #011533;
-    margin: 40px auto;
     transform: rotate(-45deg);
     transition: all 2s ease;
 }
@@ -43,12 +49,17 @@
     border-bottom-left-radius: 10px;
 }
 
-.container-logo:hover {
+.container-ext:hover {
+    width: 24vw;
+    height: 24vw;
+}
+
+.container-ext:hover .container-logo{
     transform: rotate(315deg);
     width: 24vw;
     height: 24vw;
 }
 
-.container-logo:hover .box {
+.container-ext:hover .container-logo .box {
     height: 2vw;
 }
